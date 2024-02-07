@@ -117,14 +117,14 @@ st.sidebar.markdown('## Best delivery from Matozinhos')
 st.sidebar.markdown("""___""")
 
 #filtro de data 
-start_date = datetime(2022, 4, 6)
+start_date = datetime(2022, 2, 11)
 end_date = start_date + timedelta(days=54)
  
 date_slider = st.sidebar.slider(
     "Selecione um periodo",
     min_value=start_date,
     max_value=end_date,
-    value=(start_date))
+    value=(end_date))
 
 st.sidebar.markdown("""---""")
 #filtro para escolher o tipo de trafego
