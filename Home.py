@@ -30,6 +30,7 @@ st.markdown(
           - Indicadores semanais de crescimento dos restaurantes
           
         ## Ask for Help
-        - João Marcos
-        - @jtercio on instagram
+        - @jtercio on Instagram
+        - https://github.com/joaompacheco
+        - https://www.linkedin.com/in/joaompacheco/
     """    )

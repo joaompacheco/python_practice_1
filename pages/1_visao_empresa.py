@@ -184,8 +184,8 @@ df1 = clean_code(df)
 # BARRA LATERAL
 #####################################
 st.header('Visão Empresa')
+
 #sidebar
-#image_path = '\\Users\\joaom\\OneDrive\\repos\\comunidade_DS\\exercicio_data_frames\\img\\port2.jpg'
 Image = Image.open('logo.png')
 st.sidebar.image(Image, width=120)
 
@@ -197,7 +197,7 @@ st.sidebar.markdown("""___""")
 #  FILTROS DA BARRA LATERAL
 #---------------------------
 #filtro de data 
-start_date = datetime(2022, 2, 11)
+start_date = datetime(2022, 4, 6)
 end_date = start_date + timedelta(days=54)
  
 date_slider = st.sidebar.slider(

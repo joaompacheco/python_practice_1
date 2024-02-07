@@ -189,7 +189,7 @@ st.sidebar.markdown('## Best delivery from Matozinhos')
 st.sidebar.markdown("""___""")
 
 #filtro de data 
-start_date = datetime(2022, 2, 13)
+start_date = datetime(2022, 4, 6)
 end_date = start_date + timedelta(days=54)
  
 date_slider = st.sidebar.slider(
